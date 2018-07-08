@@ -4,6 +4,11 @@
 
 .c-message_list__day_divider__label__pill {
     background: #212121;
+    color: #ffffff;
+}
+
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+    background: #212121;
 }
 
 .c-message, .c-message--light {
