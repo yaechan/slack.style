@@ -668,9 +668,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .tab_complete_ui .not_in_channel { color: #949494; }
 
-#team_menu { background: #363636; border-bottom: 2px solid #363636; color: #e6e6e6; }
+#team_menu { background: #1A1A1A; border-bottom: 2px solid #1A1A1A; color: #e6e6e6; }
 
-#team_menu.active, #team_menu:hover { background: #363636 !important; border-bottom-color: #363636 !important; }
+#team_menu.active, #team_menu:hover { background: #1A1A1A !important; border-bottom-color: #1A1A1A !important; }
 
 #team_menu.active i, #team_menu:hover i { color: #e6e6e6; }
 
