@@ -1,14 +1,14 @@
 /*.client_main_container { background: #1A1A1A; }*/
 
-.channel_header { background: #212121; }
+.channel_header { background: #1a1a1a; }
 
 .c-message_list__day_divider__label__pill {
-    background: #212121;
+    background: #1a1a1a;
     color: #ffffff;
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
-    background: #212121;
+    background: #1a1a1a;
 }
 
 .c-message, .c-message--light {
