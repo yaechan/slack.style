@@ -2,6 +2,10 @@
 
 .channel_header { background: #212121; }
 
+.c-message_list__day_divider__label__pill {
+    background: #212121;
+}
+
 .c-message, .c-message--light {
     background: #212121;
 }
@@ -15,7 +19,7 @@
 }
 
 .c-message__body {
-    color: #ceffff;
+    color: #ffffff;
 }
 
 #footer { background: #212121; }
