@@ -2,4 +2,8 @@
 
 .channel_header { background: #1A1A1A; }
 
+.c-message, .c-message--light {
+    background: #1A1A1A;
+}
+
 #footer { background: #1A1A1A; }
