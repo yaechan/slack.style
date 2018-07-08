@@ -14,4 +14,8 @@
     background: #616161;
 }
 
+.c-message__body {
+    color: #ffffff;
+}
+
 #footer { background: #212121; }
