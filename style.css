@@ -8,7 +8,7 @@
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
-    background: #212121;
+    background: red;
     box-shadow: 0 1px 0 rgba(0,0,0,.1);
 }
 
