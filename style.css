@@ -28,4 +28,8 @@
     color: #ffffff;
 }
 
+.c-virtual_list__item {
+    background: #212121;
+}
+
 #footer { background: #212121; }
