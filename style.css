@@ -6,7 +6,7 @@
     background: #212121;
 }
 
-.c-message:hover, .c-message--light:hover {
+.c-message--hover {
     background: red;
 }
 
