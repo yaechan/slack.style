@@ -29,6 +29,10 @@
     background: #a1a1a1;
 }
 
+.c-message_actions__container, .c-message__actions {
+    background: #212121;
+}
+
 /*
 .texty_legacy.texty_single_line_input:placeholder-shown .ql-editor:placeholder-shown {
     color: #616161;
