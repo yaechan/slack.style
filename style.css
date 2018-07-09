@@ -17,7 +17,7 @@
 .texty_legacy.texty_single_line_input .ql-editor {
     color: #ffffff;
 }
-
+/*
 .texty_legacy.texty_single_line_input:placeholder-shown .ql-editor:placeholder-shown {
     color: #616161;
 }
@@ -26,6 +26,24 @@
 :-moz-placeholder { color: red; }
 ::-moz-placeholder { color: red; }
 :-ms-input-placeholder { color: red; }
+*/
+
+::-webkit-input-placeholder { color: #616161 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
+
+::-moz-placeholder { color: #616161 !important; filter: none; opacity: 0.5; }
+
+::placeholder { color: #616161 !important; filter: none; opacity: 0.5; }
+
+[data-placeholder]:empty::before { color: #616161 !important; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #616161 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
+
+input::-moz-placeholder, textarea::-moz-placeholder { color: #616161 !important; filter: none; opacity: 0.5; }
+
+input::placeholder, textarea::placeholder { color: #616161 !important; filter: none; opacity: 0.5; }
+
+input[data-placeholder]:empty::before, textarea[data-placeholder]:empty::before { color: #616161 !important; }
+
 
 /* コンテンツ上の日付 */
 .c-message_list__day_divider__label__pill {
