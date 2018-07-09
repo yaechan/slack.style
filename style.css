@@ -110,6 +110,11 @@ pre.c-mrkdwn__pre {
     color: #ffffff;
 }
 
+/* メンションの背景 */
+.c-member_slug--link {
+    background: #212121;
+}
+
 /* 最新コメントとフッターの間 */
 .c-virtual_list__item {
     background: #212121;
