@@ -22,6 +22,11 @@
     color: #616161;
 }
 
+::-webkit-input-placeholder { color: red; }
+:-moz-placeholder { color: red; }
+::-moz-placeholder { color: red; }
+:-ms-input-placeholder { color: red; }
+
 /* コンテンツ上の日付 */
 .c-message_list__day_divider__label__pill {
     background: #616161;
