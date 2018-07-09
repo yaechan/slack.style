@@ -26,9 +26,10 @@
 
 /* ファイルリンクの色 */
 .c-message__file .c-file_container, .c-message__image_container, .c-message__resend_controls {
-    background: #a1a1a1;
+    background: #c1c1c1;
 }
 
+/* コンテンツホバー時のメニュー */
 .c-message_actions__container, .c-message__actions {
     background: #111111;
 }
