@@ -3,11 +3,12 @@
 /* ヘッダ */
 .channel_header { background: #212121; }
 
-/* */
+/* チャンネルトピックの背景 */
 #channel_topic_text, #channel_topic_text code {
     background: #212121;
 }
 
+/* ヘッダの検索フォーム */
 .texty_legacy.texty_single_line_input .ql-editor {
     background: #212121;
 }
@@ -24,6 +25,7 @@
     box-shadow: 0 1px 0 #616161;
 }
 
+/* 日付変更線 */
 .c-message_list__day_divider__line {
     border-top: 1px solid #616161;
 }
@@ -33,8 +35,14 @@
     background: #212121;
 }
 
+/* メッセージのフォーカス時 */
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
     background: #313131;
+}
+
+/* メッセージ内のコード表示 */
+pre.c-mrkdwn__pre {
+    background: #414141;
 }
 
 /* 各コメントの投稿者名 */
