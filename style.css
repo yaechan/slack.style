@@ -18,6 +18,10 @@
     color: #ffffff;
 }
 
+.texty_legacy.texty_single_line_input:placeholder-shown .ql-editor:placeholder-shown {
+    color: #616161;
+}
+
 /* コンテンツ上の日付 */
 .c-message_list__day_divider__label__pill {
     background: #616161;
