@@ -18,7 +18,16 @@
     color: #ffffff;
 }
 
-.ql-placeholder, .texty_legacy .ql-placeholder { color: #717274; opacity: 1.0; }
+/* ヘッダの検索フォームのプレースホルダの文字色 */
+.ql-placeholder, .texty_legacy .ql-placeholder {
+    color: #717274;
+    opacity: 1.0;
+}
+
+/* ファイルリンクの色 */
+.c-message__file .c-file_container, .c-message__image_container, .c-message__resend_controls {
+    background: #616161;
+}
 
 /*
 .texty_legacy.texty_single_line_input:placeholder-shown .ql-editor:placeholder-shown {
