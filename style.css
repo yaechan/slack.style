@@ -13,6 +13,11 @@
     background: #212121;
 }
 
+/* ヘッダの検索フォオームの入力文字 */
+.texty_legacy.texty_single_line_input .ql-editor {
+    color: #ffffff;
+}
+
 /* コンテンツ上の日付 */
 .c-message_list__day_divider__label__pill {
     background: #616161;
