@@ -28,21 +28,21 @@
 :-ms-input-placeholder { color: red; }
 */
 
-::-webkit-input-placeholder { color: #616161 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
+::-webkit-input-placeholder { color: red !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
-::-moz-placeholder { color: #616161 !important; filter: none; opacity: 0.5; }
+::-moz-placeholder { color: red !important; filter: none; opacity: 0.5; }
 
-::placeholder { color: #616161 !important; filter: none; opacity: 0.5; }
+::placeholder { color: red !important; filter: none; opacity: 0.5; }
 
-[data-placeholder]:empty::before { color: #616161 !important; }
+[data-placeholder]:empty::before { color: red !important; }
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #616161 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: red !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
-input::-moz-placeholder, textarea::-moz-placeholder { color: #616161 !important; filter: none; opacity: 0.5; }
+input::-moz-placeholder, textarea::-moz-placeholder { color: red !important; filter: none; opacity: 0.5; }
 
-input::placeholder, textarea::placeholder { color: #616161 !important; filter: none; opacity: 0.5; }
+input::placeholder, textarea::placeholder { color: red !important; filter: none; opacity: 0.5; }
 
-input[data-placeholder]:empty::before, textarea[data-placeholder]:empty::before { color: #616161 !important; }
+input[data-placeholder]:empty::before, textarea[data-placeholder]:empty::before { color: red !important; }
 
 
 /* コンテンツ上の日付 */
