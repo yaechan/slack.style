@@ -1,35 +1,43 @@
 /*.client_main_container { background: #1A1A1A; }*/
 
+/* ヘッダ */
 .channel_header { background: #212121; }
 
+/* コンテンツ上の日付 */
 .c-message_list__day_divider__label__pill {
     background: #212121;
     color: #ffffff;
 }
 
+/* ヘッダとコンテンツの間のボーダー */
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
     background: #212121;
     box-shadow: 0 1px 0 yellow;
 }
 
+/* メッセージの背景 */
 .c-message, .c-message--light {
     background: #212121;
 }
-
-/*.c-message--hover {
-    background: #212121;
-}*/
 
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
     background: #313131;
 }
 
+/* 各コメントの投稿者名 */
+.c-message--light .c-message__sender .c-message__sender_link {
+    color: #ffffff;
+}
+
+/* 各コメントの色 */
 .c-message__body {
     color: #ffffff;
 }
 
+/* 最新コメントとフッターの間 */
 .c-virtual_list__item {
     background: #212121;
 }
 
+/* フッター */
 #footer { background: #212121; }
