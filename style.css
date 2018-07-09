@@ -8,6 +8,10 @@
     background: #212121;
 }
 
+.texty_legacy.texty_single_line_input .ql-editor {
+    background: #212121;
+}
+
 /* コンテンツ上の日付 */
 .c-message_list__day_divider__label__pill {
     background: #616161;
