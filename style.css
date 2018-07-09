@@ -3,6 +3,11 @@
 /* ヘッダ */
 .channel_header { background: #212121; }
 
+/* */
+#channel_topic_text[data-placeholder]:empty:after {
+    background: #212121;
+}
+
 /* コンテンツ上の日付 */
 .c-message_list__day_divider__label__pill {
     background: #616161;
