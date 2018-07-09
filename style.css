@@ -29,6 +29,11 @@
     background: #c1c1c1;
 }
 
+/* ファイルリンクホバー時の色 */
+.c-file_container:hover .c-file__slide {
+    background: #c1c1c1;
+}
+
 /* コンテンツホバー時のメニュー */
 .c-message_actions__container, .c-message__actions {
     background: #111111;
