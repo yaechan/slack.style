@@ -4,7 +4,7 @@
 .channel_header { background: #212121; }
 
 /* */
-#channel_topic_text[data-placeholder]:empty:after {
+#channel_topic_text, #channel_topic_text code {
     background: #212121;
 }
 
