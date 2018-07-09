@@ -116,7 +116,7 @@ pre.c-mrkdwn__pre {
 }
 
 /* 自メンションの背景 */
-.c-member_slug--mention, .c-member_slug--mention:hover {
+.c-member_slug--mention {
     background: #313131;
     color: red;
 }
