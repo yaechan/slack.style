@@ -110,15 +110,13 @@ pre.c-mrkdwn__pre {
     color: #ffffff;
 }
 
-/* 他メンションの背景 */
-.c-member_slug--link {
+/* メンションの背景 */
+.c-member_slug, .c-member_slug--link, .c-member_slug--mention {
     background: #313131;
 }
 
-/* 自メンションの背景 */
-.c-member_slug, .c-member_slug--link, .c-member_slug--mention {
+.c-member_slug--mention, .c-member_slug--mention:hover {
     color: red;
-    background: #313131;
 }
 
 /* 最新コメントとフッターの間 */
