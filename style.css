@@ -42,7 +42,8 @@
 
 /* メッセージ内のコード表示 */
 pre.c-mrkdwn__pre {
-    background: #414141;
+    background: #000000;
+    color: #00ff00;
 }
 
 /* 各コメントの投稿者名 */
