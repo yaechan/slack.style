@@ -94,7 +94,7 @@ pre.c-mrkdwn__pre {
 
 /* リアクションボタンの透明度 */
 .c-reaction {
-    background: rgba(0, 0, 0, 0.0);
+    background: #616161;
 }
 
 /* 最新コメントとフッターの間 */
