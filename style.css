@@ -39,34 +39,6 @@
     background: #111111;
 }
 
-/*
-.texty_legacy.texty_single_line_input:placeholder-shown .ql-editor:placeholder-shown {
-    color: #616161;
-}
-
-::-webkit-input-placeholder { color: red; }
-:-moz-placeholder { color: red; }
-::-moz-placeholder { color: red; }
-:-ms-input-placeholder { color: red; }
-*/
-/*
-::-webkit-input-placeholder { color: red !important; -webkit-filter: none; filter: none; opacity: 0.5; }
-
-::-moz-placeholder { color: red !important; filter: none; opacity: 0.5; }
-
-::placeholder { color: red !important; filter: none; opacity: 0.5; }
-
-[data-placeholder]:empty::before { color: red !important; }
-
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: red !important; -webkit-filter: none; filter: none; opacity: 0.5; }
-
-input::-moz-placeholder, textarea::-moz-placeholder { color: red !important; filter: none; opacity: 0.5; }
-
-input::placeholder, textarea::placeholder { color: red !important; filter: none; opacity: 0.5; }
-
-input[data-placeholder]:empty::before, textarea[data-placeholder]:empty::before { color: red !important; }
-*/
-
 /* コンテンツ上の日付 */
 .c-message_list__day_divider__label__pill {
     background: #616161;
@@ -114,9 +86,15 @@ pre.c-mrkdwn__pre {
 .c-member_slug, .c-member_slug--link, .c-member_slug--mention {
     background: #313131;
 }
-
+/*
 .c-member_slug--mention, .c-member_slug--mention:hover {
     color: red;
+}
+*/
+
+/* リアクションボタンの透明度 */
+.c-reaction {
+    opacity: 0.0;
 }
 
 /* 最新コメントとフッターの間 */
