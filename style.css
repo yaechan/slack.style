@@ -34,6 +34,11 @@
     background: #c1c1c1;
 }
 
+/* 引用文の文字色 */
+.c-message_attachment__text {
+    color: #616161;
+}
+
 /* コンテンツホバー時のメニュー */
 .c-message_actions__container, .c-message__actions {
     background: #111111;
