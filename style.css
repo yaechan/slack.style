@@ -56,6 +56,11 @@
     border-top: 1px solid #616161;
 }
 
+/* 新規メッセージボーダー上のテキスト */
+.c-message_list__unread_divider__label {
+    background: #212121;
+}
+
 /* メッセージの背景 */
 .c-message, .c-message--light {
     background: #212121;
