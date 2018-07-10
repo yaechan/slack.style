@@ -92,9 +92,14 @@ pre.c-mrkdwn__pre {
 }
 */
 
-/* リアクションボタンの透明度 */
+/* リアクションボタン */
 .c-reaction {
-    background: #616161;
+    background: #313131;
+}
+
+/* 自身のリアクションボタン */
+.c-reaction--reacted {
+    background: rgba(0, 0, 0, 0.0);
 }
 
 /* 最新コメントとフッターの間 */
