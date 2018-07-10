@@ -103,6 +103,9 @@ pre.c-mrkdwn__pre {
     cursor: pointer;
 }
 
+.c-reaction_add {
+    background: #111111;
+}
 
 /* 自身のリアクションボタン
 .c-reaction--reacted {
