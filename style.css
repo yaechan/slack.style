@@ -83,6 +83,11 @@ pre.c-mrkdwn__pre, code.c-mrkdwn__code {
     color: #00ff00;
 }
 
+/* インラインコード */
+code.c-mrkdwn__code {
+    border-color: #111111;
+}
+
 /* 各コメントの投稿者名 */
 .c-message--light .c-message__sender .c-message__sender_link {
     color: #ffffff;
