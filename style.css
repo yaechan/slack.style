@@ -93,10 +93,16 @@ pre.c-mrkdwn__pre {
 */
 
 /* リアクションボタン */
-.c-reaction:not(.c-reaction--reacted):not(.c-reaction:focus):not(.c-reaction:hover) {
+.c-reaction:not(.c-reaction--reacted) {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.3);
 }
+
+.c-reaction:focus, .c-reaction:hover {
+    border-color: #2d9ee0;
+    cursor: pointer;
+}
+
 
 /* 自身のリアクションボタン
 .c-reaction--reacted {
