@@ -78,7 +78,7 @@
 }
 
 /* メッセージ内のコード表示 */
-pre.c-mrkdwn__pre {
+pre.c-mrkdwn__pre, code.c-mrkdwn__code {
     background: #000000;
     color: #00ff00;
 }
@@ -103,27 +103,25 @@ pre.c-mrkdwn__pre {
 }
 */
 
-/* リアクションボタン */
+/* リアクションボタン（自分が押したやつ以外） */
 .c-reaction:not(.c-reaction--reacted) {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.3);
 }
 
+/* リアクションボタンホバー時 */
 .c-reaction:focus, .c-reaction:hover {
     border-color: #2d9ee0;
     cursor: pointer;
 }
 
+/* リアクションボタンを追加するボタン */
 .c-reaction_add {
     background: #111111;
     border-color: rgba(255, 255, 255, 0.3);
 }
 
-/* 自身のリアクションボタン
-.c-reaction--reacted {
-    background: rgba(0, 0, 0, 0.0);
-}
-*/
+
 /* 最新コメントとフッターの間 */
 .c-virtual_list__item {
     background: #212121;
