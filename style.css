@@ -46,7 +46,8 @@
 
 /* コンテンツ上の日付 */
 .c-message_list__day_divider__label__pill {
-    background: #616161;
+/*    background: #616161;*/
+    background: #212121;
     color: #ffffff;
 }
 
