@@ -24,6 +24,11 @@
     opacity: 1.0;
 }
 
+/* サイドメニューの境界 */
+.c-scrollbar__track::before {
+    border-right: 1px solid red;
+}
+
 /* ファイルリンクの色 */
 .c-message__file .c-file_container, .c-message__image_container, .c-message__resend_controls {
     background: #c1c1c1;
