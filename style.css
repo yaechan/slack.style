@@ -25,8 +25,8 @@
 }
 
 /* サイドメニューの境界 */
-.c-scrollbar__track::before {
-    border-right: 1px solid red;
+.client_main_container {
+    border-left: 1px solid red;
 }
 
 /* ファイルリンクの色 */
