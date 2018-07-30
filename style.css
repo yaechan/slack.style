@@ -135,6 +135,9 @@ code.c-mrkdwn__code {
 /* 最新コメントとフッターの間 */
 .c-virtual_list__item {
     background: #212121;
+}
+
+.c-virtual_list__scroll_container {
     border-left: 1px solid red;
 }
 
