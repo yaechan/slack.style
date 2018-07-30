@@ -75,7 +75,6 @@
 /* メッセージの背景 */
 .c-message, .c-message--light {
     background: #212121;
-    border-left: 1px solid red;
 }
 
 /* メッセージのフォーカス時 */
@@ -136,6 +135,7 @@ code.c-mrkdwn__code {
 /* 最新コメントとフッターの間 */
 .c-virtual_list__item {
     background: #212121;
+    border-left: 1px solid red;
 }
 
 /* フッター */
