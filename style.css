@@ -25,9 +25,9 @@
 }
 
 /* サイドメニューの境界 */
-/*.client_main_container, #client_body*/.p-message_pane {
+/*.client_main_container, #client_body .expand-trigger > div {
     border-left: 1px solid red;
-}
+}*/
 
 /* ファイルリンクの色 */
 .c-message__file .c-file_container, .c-message__image_container, .c-message__resend_controls {
@@ -75,6 +75,7 @@
 /* メッセージの背景 */
 .c-message, .c-message--light {
     background: #212121;
+    border-left: 1px solid red;
 }
 
 /* メッセージのフォーカス時 */
