@@ -26,7 +26,7 @@
 
 /* サイドメニューの境界 */
 .p-message_pane {
-    background: red;
+    background: #1a1a1a;
 }
 /*.client_main_container, #client_body .expand-trigger > div {
     border-left: 1px solid red;
