@@ -25,12 +25,12 @@
 }
 
 /* サイドメニューの境界 */
+.p-message_pane {
+    background: red;
+}
 /*.client_main_container, #client_body .expand-trigger > div {
     border-left: 1px solid red;
 }*/
-.c-virtual_list .c-virtual_list--scrollbar .c-message_list .c-scrollbar .c-scrollbar--fade {
-    border-left: 1px solid red;
-}
 
 /* ファイルリンクの色 */
 .c-message__file .c-file_container, .c-message__image_container, .c-message__resend_controls {
