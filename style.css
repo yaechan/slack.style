@@ -27,7 +27,7 @@
 /* サイドメニューの境界 */
 .channel_header, #col_messages, #client_body:not(.onboarding):before {
     /*box-shadow: none;*/
-    box-shadow: inset 1px 0 0 0 #212121;
+    box-shadow: inset 1px 0 0 0 #1a1a1a;
 }
 /*
 .p-message_pane, .messages_header {
