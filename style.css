@@ -63,7 +63,7 @@
 /* ヘッダとコンテンツの間のボーダー */
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
     background: #212121;
-    box-shadow: 1px 1px 0 #616161;
+    box-shadow: 0 1px 0 #616161;
     /*box-shadow: inset 1px 0 0 0 #1a1a1a;*/
 }
 
@@ -143,4 +143,5 @@ code.c-mrkdwn__code {
 }
 
 /* フッター */
-#footer { background: #212121; }
+/*#footer { background: #212121; }*/
+#footer_msgs { background: #212121; }
