@@ -25,7 +25,7 @@
 }
 
 /* サイドメニューの境界 */
-.channel_header, #col_messages {
+.channel_header, #col_messages, #client_body:not(.onboarding):before {
     /*box-shadow: none;*/
     box-shadow: inset 1px 0 0 0 #212121;
 }
