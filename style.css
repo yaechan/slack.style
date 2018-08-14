@@ -26,7 +26,7 @@
 
 /* サイドメニューの境界 */
 .p-message_pane, .messages_header {
-    background: #1a1a1a;
+    background: #212121;
 }
 
 .c-virtual_list__scroll_container {
