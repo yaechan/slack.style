@@ -25,10 +25,14 @@
 }
 
 /* サイドメニューの境界 */
+.channel_header {
+    box-shadow: none;
+}
+/*
 .p-message_pane, .messages_header {
     background: #212121;
 }
-
+*/
 .c-virtual_list__scroll_container {
     background: #212121;
 }
