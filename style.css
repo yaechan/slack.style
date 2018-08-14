@@ -29,16 +29,8 @@
     /*box-shadow: none;*/
     box-shadow: inset 1px 0 0 0 #1a1a1a;
 }
-/*
-.p-message_pane, .messages_header {
-    background: #212121;
-}
-*/
 /*.c-virtual_list__scroll_container {
     background: #212121;
-}*/
-/*.client_main_container, #client_body .expand-trigger > div {
-    border-left: 1px solid red;
 }*/
 
 /* ファイルリンクの色 */
@@ -71,7 +63,8 @@
 /* ヘッダとコンテンツの間のボーダー */
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
     background: #212121;
-    box-shadow: 0 1px 0 #616161;
+    /*box-shadow: 0 1px 0 #616161;*/
+    box-shadow: inset 1px 0 0 0 #1a1a1a;
 }
 
 /* 日付変更線 */
