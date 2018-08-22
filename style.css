@@ -48,6 +48,11 @@
     color: #616161;
 }
 
+/* 引用文キャプションの文字色 */
+.c-message_attachment__pretext {
+    color: #919191;
+}
+
 /* 引用文タイトルの文字色 */
 .c-message_attachment__title {
     color: #c1c1c1;
