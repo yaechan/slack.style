@@ -48,6 +48,11 @@
     color: #616161;
 }
 
+/* 引用文タイトルの文字色 */
+.c-message_attachment__title {
+    color: #c1c1c1;
+}
+
 /* コンテンツホバー時のメニュー */
 .c-message_actions__container, .c-message__actions {
     background: #111111;
@@ -143,5 +148,4 @@ code.c-mrkdwn__code {
 }
 
 /* フッター */
-/*#footer { background: #212121; }*/
 #footer_msgs { background: #212121; }
