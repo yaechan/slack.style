@@ -114,7 +114,7 @@ code.c-mrkdwn__code {
 }
 
 /* 各コメントの色 */
-.c-message__body {
+.c-message__body, .message_body {
     color: #ffffff;
 }
 
