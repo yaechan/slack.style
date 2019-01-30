@@ -31,7 +31,7 @@
     /*background: #212121;*/
 }
 
-ts-message, .flex_content_scroller {
+.flex_contents {
     background: #212121;
 }
 /*.c-virtual_list__scroll_container {
@@ -98,10 +98,10 @@ ts-message, .flex_content_scroller {
 }
 
 
-
+/*
 .panel {
     background: #212121;
-}
+}*/
 
 /* メッセージのフォーカス時 */
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
@@ -120,18 +120,23 @@ code.c-mrkdwn__code {
 }
 
 /* 各コメントの投稿者名 */
-.c-message--light .c-message__sender .c-message__sender_link {
+.c-message--light .c-message__sender .c-message__sender_link,
+.c-message_kit__actions .c-message__sender .c-message__sender_link {
     color: #ffffff;
 }
 
 /* 各コメントの色 */
-.c-message__body, .message_body {
+.c-message__body, .message_body, .c-message_kit__text {
     color: #ffffff;
 }
 
 /* メンションの背景 */
 .c-member_slug, .c-member_slug--link, .c-member_slug--mention {
     background: #313131;
+}
+
+.p-threads_footer__broadcast_controls_inner {
+    color: #616061;
 }
 /*
 .c-member_slug--mention, .c-member_slug--mention:hover {
