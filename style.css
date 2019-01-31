@@ -8,6 +8,11 @@
     background: #212121;
 }
 
+/* チャンネル名 */
+#channel_title, #channel_name {
+    color: #ffffff;
+}
+
 /* ヘッダの検索フォーム */
 .texty_legacy.texty_single_line_input .ql-editor {
     background: #212121;
