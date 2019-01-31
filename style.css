@@ -9,7 +9,7 @@
 }
 
 /* チャンネル名 */
-#channel_title, #channel_name {
+#channel_title, #channel_name, .thread_channel_name>a {
     color: #ffffff;
 }
 
