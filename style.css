@@ -122,7 +122,7 @@ ts-thread .thread_header .thread_channel_name a {
 }
 
 /* メッセージ内のコード表示 */
-pre.c-mrkdwn__pre, code.c-mrkdwn__code {
+pre.c-mrkdwn__pre, code.c-mrkdwn__code, pre.special_formatting {
     background: #000000;
     color: #00ff00;
 }
