@@ -175,13 +175,15 @@ code.c-mrkdwn__code, code.special_formatting {
 */
 
 /* リアクションボタン（自分が押したやつ以外） */
-.c-reaction:not(.c-reaction--reacted) {
+.c-reaction:not(.c-reaction--reacted),
+.rxn {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.3);
 }
 
 /* リアクションボタンホバー時 */
-.c-reaction:focus, .c-reaction:hover {
+.c-reaction:focus, .c-reaction:hover,
+.rxn:focus, .rxn:hover {
     border-color: #2d9ee0;
     cursor: pointer;
 }
