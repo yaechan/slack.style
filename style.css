@@ -53,8 +53,10 @@ ts-thread .thread_header .thread_channel_name a {
 }
 
 /* ファイルリンクホバー時の色 */
-.c-file_container:hover .c-file__slide, .c-file_container--has_thumb .c-file__actions:before,
-.meta_hover, .file_container.file_has_thumb .preview_actions {
+.c-file_container:hover .c-file__slide, .c-file_container--has_thumb .c-file__actions:before, .c-file_container:hover .c-file__slide,
+.file_container.generic_container.file_menu_open .file_header .file_header_meta .meta_hover, .file_container.generic_container:focus .file_header .file_header_meta .meta_hover, .file_container.generic_container:hover .file_header .file_header_meta .meta_hover,
+.file_container.file_has_thumb .preview_actions
+ {
     background: #c1c1c1;
 }
 
