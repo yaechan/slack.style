@@ -37,7 +37,8 @@ ts-thread .thread_header .thread_channel_name a {
     /*background: #212121;*/
 }
 
-#flex_contents {
+#flex_contents,
+#threads_msgs_scroller_div:not(.loading):before {
     background: #212121;
 }
 /*.c-virtual_list__scroll_container {
