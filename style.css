@@ -160,7 +160,8 @@ code.c-mrkdwn__code, code.special_formatting {
 }
 
 /* メンションの背景 */
-.c-member_slug, .c-member_slug--link, .c-member_slug--mention {
+.c-member_slug, .c-member_slug--link, .c-member_slug--mention,
+.comment .app_preview_link_slug, .comment .internal_member_link, .comment .internal_user_group_link, .comment .mention, .ql-editor .app_preview_link_slug, .ql-editor .internal_member_link, .ql-editor .internal_user_group_link, .ql-editor .mention, ts-message .app_preview_link_slug, ts-message .internal_member_link, ts-message .internal_user_group_link, ts-message .mention {
     background: #313131;
 }
 
