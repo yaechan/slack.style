@@ -37,6 +37,7 @@ ts-thread .thread_header .thread_channel_name a {
     /*background: #212121;*/
 }
 
+/* 右サイドバー */
 #flex_contents,
 #threads_msgs_scroller_div:not(.loading):before {
     background: #212121;
@@ -118,7 +119,8 @@ ts-thread .thread_header .thread_channel_name a {
 }
 
 /* スレッド内のカード */
-ts-thread .thread_messages {
+ts-thread .thread_messages,
+ts-thread ts-message.new_reply {
     background: #1a1a1a;
     border: none;
 }
