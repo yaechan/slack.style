@@ -96,6 +96,11 @@ ts-thread .thread_header .thread_channel_name a {
     border-top: 1px solid #616161;
 }
 
+/* スター付きアイテム アイテム間のボーダー */
+.star_item {
+    border-bottom: 1px solid #616161;
+}
+
 /* 新規メッセージボーダー上のテキスト */
 .c-message_list__unread_divider__label {
     background: #212121;
@@ -114,6 +119,7 @@ ts-thread .thread_header .thread_channel_name a {
 /* スレッド内のカード */
 ts-thread .thread_messages {
     background: #1a1a1a;
+    border: none;
 }
 
 
