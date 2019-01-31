@@ -11,7 +11,7 @@
 /* チャンネル名 */
 #channel_title, #channel_name,
 ts-thread .thread_header .thread_channel_name a {
-    color: #616161;
+    color: #919191;
 }
 
 /* ヘッダの検索フォーム */
