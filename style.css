@@ -97,6 +97,10 @@
     background: #212121;
 }
 
+.day_container, .message_container_item {
+    background: #212121;
+}
+
 
 /*
 .panel {
