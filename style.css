@@ -9,7 +9,8 @@
 }
 
 /* チャンネル名 */
-#channel_title, #channel_name, .thread_channel_name>a {
+#channel_title, #channel_name,
+ts-thread .thread_header .thread_channel_name a {
     color: #ffffff;
 }
 
@@ -82,7 +83,8 @@
 }
 
 /* ヘッダとコンテンツの間のボーダー */
-.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before,
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
     background: #212121;
     box-shadow: 0 1px 0 #616161;
     /*box-shadow: inset 1px 0 0 0 #1a1a1a;*/
