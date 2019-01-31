@@ -97,7 +97,7 @@
     background: #212121;
 }
 
-.day_container, .message_container_item {
+.day_container, .message_container_item, #threads_msgs_scroller_div {
     background: #212121;
 }
 
