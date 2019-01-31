@@ -53,7 +53,8 @@ ts-thread .thread_header .thread_channel_name a {
 }
 
 /* ファイルリンクホバー時の色 */
-.c-file_container:hover .c-file__slide {
+.c-file_container:hover .c-file__slide, .c-file_container--has_thumb .c-file__actions:before,
+.meta_hover, .file_container.file_has_thumb .preview_actions {
     background: #c1c1c1;
 }
 
