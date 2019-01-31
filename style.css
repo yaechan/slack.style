@@ -69,7 +69,8 @@
 }
 
 /* コンテンツ上の日付 */
-.c-message_list__day_divider__label__pill {
+.c-message_list__day_divider__label__pill,
+.divider_label {
 /*    background: #616161;*/
     background: #212121;
     color: #ffffff;
@@ -97,6 +98,7 @@
     background: #212121;
 }
 
+/* スレッドの背景 */
 .day_container, .message_container_item, #threads_msgs_scroller_div {
     background: #212121;
 }
