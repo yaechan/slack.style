@@ -189,7 +189,8 @@ code.c-mrkdwn__code, code.special_formatting {
 }
 
 /* リアクションボタンを追加するボタン */
-.c-reaction_add {
+.c-reaction_add,
+ts-message .action_hover_container .btn_msg_action {
     background: #111111;
     border-color: rgba(255, 255, 255, 0.3);
 }
