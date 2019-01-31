@@ -154,7 +154,8 @@ code.c-mrkdwn__code, code.special_formatting {
 
 /* 各コメントの投稿者名 */
 .c-message--light .c-message__sender .c-message__sender_link,
-.light_theme ts-message .message_content .message_sender {
+.light_theme ts-message .message_content .message_sender,
+.c-message__sender a {
     color: #ffffff !important;
 }
 
