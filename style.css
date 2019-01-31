@@ -47,7 +47,8 @@ ts-thread .thread_header .thread_channel_name a {
 }*/
 
 /* ファイルリンクの色 */
-.c-message__file .c-file_container, .c-message__image_container, .c-message__resend_controls {
+.c-message__file .c-file_container, .c-message__image_container, .c-message__resend_controls,
+.file_container.file_has_thumb {
     background: #c1c1c1;
 }
 
