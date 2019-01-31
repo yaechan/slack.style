@@ -91,7 +91,8 @@ ts-thread .thread_header .thread_channel_name a {
 }
 
 /* 日付変更線 */
-.c-message_list__day_divider__line {
+.c-message_list__day_divider__line,
+#threads_msgs_scroller_div .threads_caught_up_divider .divider_line {
     border-top: 1px solid #616161;
 }
 
