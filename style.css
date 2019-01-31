@@ -110,6 +110,11 @@ ts-thread .thread_header .thread_channel_name a {
     background: #212121;
 }
 
+/* スレッド内のカード */
+ts-thread.thread_messages {
+    background: #1a1a1a;
+}
+
 
 /*
 .panel {
