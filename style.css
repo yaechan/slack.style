@@ -120,7 +120,8 @@ code.c-mrkdwn__code {
 }
 
 /* 各コメントの投稿者名 */
-.c-message--light .c-message__sender .c-message__sender_link {
+.c-message--light .c-message__sender .c-message__sender_link,
+.message_sender {
     color: #ffffff !important;
 }
 
