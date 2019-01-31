@@ -129,6 +129,11 @@ ts-thread ts-message.new_reply {
     border: none;
 }
 
+/* 全未読の背景一部 */
+.unread_group {
+    background: #212121;
+}
+
 
 /*
 .panel {
