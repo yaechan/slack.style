@@ -178,6 +178,11 @@ code.c-mrkdwn__code, code.special_formatting {
 .p-threads_footer__broadcast_controls_inner {
     color: #616061;
 }
+
+.p-threads_view__default_background,
+.p-threads_view__default_background, .p-threads_view__default_background--first {
+    background: red;
+}
 /*
 .c-member_slug--mention, .c-member_slug--mention:hover {
     color: red;
