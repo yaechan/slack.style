@@ -191,10 +191,21 @@ code.c-mrkdwn__code, code.special_formatting {
 }
 
 .c-message_kit__background, .p-threads_view_root, .c-message_kit__message, .c-message_kit__thread_message, .c-message_kit__thread_message--root,
-.c-message_kit__background, .c-message_kit__message, .c-message_kit__thread_message, .p-threads_view_reply {
+.c-message_kit__background, .c-message_kit__message, .c-message_kit__thread_message, .p-threads_view_reply,
+.p-threads_view__footer {
     border-color: #111111;
 }
 
+.c-message_kit__background:hover, .p-threads_view_root:hover, .c-message_kit__message:hover, .c-message_kit__thread_message:hover, .c-message_kit__thread_message--root:hover,
+.c-message_kit__background:hover, .c-message_kit__message:hover, .c-message_kit__thread_message:hover, .p-threads_view_reply:hover,
+.p-threads_view__footer:hover {
+    border-color: #111111;
+}
+
+.p-threads_view__divider_label,
+.p-threads_view__divider_line {
+    background: #212121;
+}
 /*
 .c-member_slug--mention, .c-member_slug--mention:hover {
     color: red;
