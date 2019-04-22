@@ -183,12 +183,15 @@ code.c-mrkdwn__code, code.special_formatting {
 .p-threads_view__default_background,
 .p-threads_view__default_background, .p-threads_view__default_background--first {
     background: #111111;
-    border-color: #111111;
 }
 
 .p-threads_view__default_background:hover,
 .p-threads_view__default_background:hover, .p-threads_view__default_background--first:hover {
-    background: #c1c1c1;
+    background: #313131;
+}
+
+.c-message_kit__background, .p-threads_view_root, .c-message_kit__message, .c-message_kit__thread_message, .c-message_kit__thread_message--root,
+.c-message_kit__background, .c-message_kit__message, .c-message_kit__thread_message, .p-threads_view_reply {
     border-color: #111111;
 }
 
