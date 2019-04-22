@@ -181,12 +181,13 @@ code.c-mrkdwn__code, code.special_formatting {
 
 /* 全スレッド */
 .p-threads_view__default_background,
-.p-threads_view__default_background, .p-threads_view__default_background--first {
+.p-threads_view__default_background--first,
+.p-threads_view__default_background--last {
     background: #111111;
 }
 
-.p-threads_view__default_background:hover,
-.p-threads_view__default_background:hover, .p-threads_view__default_background--first:hover {
+.p-threads_view__default_background:hover:not(.p-threads_view__default_background--last),
+.p-threads_view__default_background--first:hover {
     background: #313131;
 }
 
@@ -199,12 +200,13 @@ code.c-mrkdwn__code, code.special_formatting {
 .c-message_kit__background:hover, .p-threads_view_root:hover, .c-message_kit__message:hover, .c-message_kit__thread_message:hover, .c-message_kit__thread_message--root:hover,
 .c-message_kit__background:hover, .c-message_kit__message:hover, .c-message_kit__thread_message:hover, .p-threads_view_reply:hover,
 .p-threads_view__footer:hover {
-    border-color: #111111;
+    border-color: #313131;
 }
 
 .p-threads_view__divider_label,
 .p-threads_view__divider_line {
     background: #212121;
+    border-color: #212121;
 }
 /*
 .c-member_slug--mention, .c-member_slug--mention:hover {
