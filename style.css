@@ -186,7 +186,7 @@ code.c-mrkdwn__code, code.special_formatting {
     background: #111111;
 }
 
-.p-threads_view__default_background:hover:not(.p-threads_view__default_background--last),
+.p-threads_view__default_background:not(.p-threads_view__default_background--last):hover,
 .p-threads_view__default_background--first:hover {
     background: #313131;
 }
