@@ -183,6 +183,11 @@ code.c-mrkdwn__code, code.special_formatting {
 .p-threads_view__default_background,
 .p-threads_view__default_background, .p-threads_view__default_background--first {
     background: #111111;
+    border-color: #111111;
+
+    &:hover {
+        background: #c1c1c1;
+    }
 }
 /*
 .c-member_slug--mention, .c-member_slug--mention:hover {
