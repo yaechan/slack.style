@@ -189,6 +189,13 @@ code.c-mrkdwn__code, code.special_formatting {
         background: #c1c1c1;
     }
 }
+
+.p-threads_view__default_background:hover,
+.p-threads_view__default_background:hover, .p-threads_view__default_background--first:hover {
+    background: #c1c1c1;
+    border-color: #111111;
+}
+
 /*
 .c-member_slug--mention, .c-member_slug--mention:hover {
     color: red;
