@@ -207,6 +207,10 @@ code.c-mrkdwn__code, code.special_formatting {
     background: #212121;
     border-color: #212121;
 }
+
+.c-channel_name, .p-threads_view_header__channel_name {
+    color: #ffffff;
+}
 /*
 .c-member_slug--mention, .c-member_slug--mention:hover {
     color: red;
