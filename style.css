@@ -198,8 +198,7 @@ code.c-mrkdwn__code, code.special_formatting {
 }
 
 .c-message_kit__background:hover, .p-threads_view_root:hover, .c-message_kit__message:hover, .c-message_kit__thread_message:hover, .c-message_kit__thread_message--root:hover,
-.c-message_kit__background:hover, .c-message_kit__message:hover, .c-message_kit__thread_message:hover, .p-threads_view_reply:hover,
-.p-threads_view__footer:hover {
+.c-message_kit__background:hover, .c-message_kit__message:hover, .c-message_kit__thread_message:hover, .p-threads_view_reply:hover {
     border-color: #313131;
 }
 
