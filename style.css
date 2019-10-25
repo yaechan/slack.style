@@ -42,6 +42,14 @@ ts-thread .thread_header .thread_channel_name a {
 #threads_msgs_scroller_div:not(.loading):before {
     background: #212121;
 }
+
+.c-message_kit__background,
+.c-message_kit__background--hovered,
+.c-message_kit__message,
+.c-message_kit__thread_message,
+.c-message_kit__thread_message--root {
+    background: #212121;
+}
 /*.c-virtual_list__scroll_container {
     background: #212121;
 }*/
